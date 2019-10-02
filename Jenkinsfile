@@ -8,3 +8,5 @@ for (plugin in plugins) {
 		println(plugin.getUpdateInfo().deploy(true).get());
 	}
 }
+
+println(Jenkins.instance.doSafeRestart());
