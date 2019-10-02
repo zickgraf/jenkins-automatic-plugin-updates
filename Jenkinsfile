@@ -1,4 +1,4 @@
-println(Jenkins.instance.pluginManager.doCheckUpdatesServer())
+println(Jenkins.instance.pluginManager.doCheckUpdatesServer());
 
 plugins = Jenkins.instance.pluginManager.getPlugins();
 
